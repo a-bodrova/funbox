@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/funbox/nyamushka/static/css/main.f183954f.css",
-    "main.js": "/funbox/nyamushka/static/js/main.d93a6505.js",
-    "static/media/Trebuchet-MS-Regular.svg": "/funbox/nyamushka/static/media/Trebuchet-MS-Regular.9b49de8eea8279cc324c.svg",
-    "static/media/Trebuchet-MS-Bold.svg": "/funbox/nyamushka/static/media/Trebuchet-MS-Bold.c2eb13054abc8a25aeba.svg",
-    "static/media/cat.png": "/funbox/nyamushka/static/media/cat.58676bb34b670741bded.png",
-    "static/media/Trebuchet-MS-Regular.eot": "/funbox/nyamushka/static/media/Trebuchet-MS-Regular.4463655297fca7732027.eot",
-    "static/media/Trebuchet-MS-Regular.ttf": "/funbox/nyamushka/static/media/Trebuchet-MS-Regular.8dc5d2dd53924baa495c.ttf",
-    "static/media/Trebuchet-MS-Bold.eot": "/funbox/nyamushka/static/media/Trebuchet-MS-Bold.9f066ced3c4fce3bf270.eot",
-    "static/media/Trebuchet-MS-Bold.ttf": "/funbox/nyamushka/static/media/Trebuchet-MS-Bold.737f1c250201dcfec8e3.ttf",
-    "static/media/Exo2.0-Thin.eot": "/funbox/nyamushka/static/media/Exo2.0-Thin.6c74c7ddf809b411dd3b.eot",
-    "static/media/Exo2.0-Thin.ttf": "/funbox/nyamushka/static/media/Exo2.0-Thin.5d9d6daf6158470ae64c.ttf",
-    "static/media/Exo2.0-Thin.svg": "/funbox/nyamushka/static/media/Exo2.0-Thin.51c257bfa8ec3e0cfb4b.svg",
-    "static/media/Trebuchet-MS-Regular.woff": "/funbox/nyamushka/static/media/Trebuchet-MS-Regular.690a0df2e11a034dfbb1.woff",
-    "static/media/Trebuchet-MS-Bold.woff": "/funbox/nyamushka/static/media/Trebuchet-MS-Bold.7d8bea1a07014dfad318.woff",
-    "static/media/Exo2.0-Thin.woff": "/funbox/nyamushka/static/media/Exo2.0-Thin.182c97217cd986a2e12a.woff",
-    "static/media/bg-rapport.png": "/funbox/nyamushka/static/media/bg-rapport.d6f07f8ed5f5049a96ce.png",
-    "index.html": "/funbox/nyamushka/index.html",
-    "main.f183954f.css.map": "/funbox/nyamushka/static/css/main.f183954f.css.map",
-    "main.d93a6505.js.map": "/funbox/nyamushka/static/js/main.d93a6505.js.map"
+    "main.css": "/funbox/static/css/main.f6c12a1e.css",
+    "main.js": "/funbox/static/js/main.d93a6505.js",
+    "static/media/Trebuchet-MS-Regular.svg": "/funbox/static/media/Trebuchet-MS-Regular.9b49de8eea8279cc324c.svg",
+    "static/media/Trebuchet-MS-Bold.svg": "/funbox/static/media/Trebuchet-MS-Bold.c2eb13054abc8a25aeba.svg",
+    "static/media/cat.png": "/funbox/static/media/cat.58676bb34b670741bded.png",
+    "static/media/Trebuchet-MS-Regular.eot": "/funbox/static/media/Trebuchet-MS-Regular.4463655297fca7732027.eot",
+    "static/media/Trebuchet-MS-Regular.ttf": "/funbox/static/media/Trebuchet-MS-Regular.8dc5d2dd53924baa495c.ttf",
+    "static/media/Trebuchet-MS-Bold.eot": "/funbox/static/media/Trebuchet-MS-Bold.9f066ced3c4fce3bf270.eot",
+    "static/media/Trebuchet-MS-Bold.ttf": "/funbox/static/media/Trebuchet-MS-Bold.737f1c250201dcfec8e3.ttf",
+    "static/media/Exo2.0-Thin.eot": "/funbox/static/media/Exo2.0-Thin.6c74c7ddf809b411dd3b.eot",
+    "static/media/Exo2.0-Thin.ttf": "/funbox/static/media/Exo2.0-Thin.5d9d6daf6158470ae64c.ttf",
+    "static/media/Exo2.0-Thin.svg": "/funbox/static/media/Exo2.0-Thin.51c257bfa8ec3e0cfb4b.svg",
+    "static/media/Trebuchet-MS-Regular.woff": "/funbox/static/media/Trebuchet-MS-Regular.690a0df2e11a034dfbb1.woff",
+    "static/media/Trebuchet-MS-Bold.woff": "/funbox/static/media/Trebuchet-MS-Bold.7d8bea1a07014dfad318.woff",
+    "static/media/Exo2.0-Thin.woff": "/funbox/static/media/Exo2.0-Thin.182c97217cd986a2e12a.woff",
+    "static/media/bg-rapport.png": "/funbox/static/media/bg-rapport.d6f07f8ed5f5049a96ce.png",
+    "index.html": "/funbox/index.html",
+    "main.f6c12a1e.css.map": "/funbox/static/css/main.f6c12a1e.css.map",
+    "main.d93a6505.js.map": "/funbox/static/js/main.d93a6505.js.map"
   },
   "entrypoints": [
-    "static/css/main.f183954f.css",
+    "static/css/main.f6c12a1e.css",
     "static/js/main.d93a6505.js"
   ]
 }
