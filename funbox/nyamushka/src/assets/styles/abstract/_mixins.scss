@@ -17,20 +17,25 @@
 }
 
 @mixin font-card-bold($size, $height) {
-  font-family: 'Trebuchet Bold';
+  font-family: 'Trebuchet Bold', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 700;
   font-size: $size;
   line-height: $height;
 }
 
 @mixin font-card-regular($size, $height) {
-  font-family: 'Trebuchet Regular';
+  font-family: 'Trebuchet Regular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: $size;
   line-height: $height;
 }
 
+@mixin media-desktop {
+  @media (max-width: width(desktop)) {
+    @content;
+  }
+}
 
 @mixin media-laptop {
   @media (max-width: width(laptop)) {

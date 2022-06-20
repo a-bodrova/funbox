@@ -1,7 +1,10 @@
 @font-face {
   font-family: 'Exo2.0';
   src: url('../../fonts/Exo2.0-Thin.eot');
-  src: local('☺'), url('../../fonts/Exo2.0-Thin.woff') format('woff'), url('../../fonts/Exo2.0-Thin.ttf') format('truetype'), url('../../fonts/Exo2.0-Thin.svg') format('svg');
+  src: local('Exo2.0'),
+       url('../../fonts/Exo2.0-Thin.woff') format('woff'),
+       url('../../fonts/Exo2.0-Thin.ttf') format('truetype'),
+       url('../../fonts/Exo2.0-Thin.svg') format('svg');
   font-weight: 100;
   font-style: normal;
 }
@@ -9,7 +12,12 @@
 @font-face {
   font-family: 'Trebuchet Bold';
   src: url('../../fonts/Trebuchet-MS-Bold.eot');
-  src: local('☺'), url('../../fonts/Trebuchet-MS-Bold.woff') format('woff'), url('../../fonts/Trebuchet-MS-Bold.ttf') format('truetype'), url('../../fonts/Trebuchet-MS-Bold.svg') format('svg');
+  src: local('Trebuchet-MS-Bold'),
+       local('Trebuchet Bold'),
+       local('Trebuchet MS Bold'),
+       url('../../fonts/Trebuchet-MS-Bold.woff') format('woff'),
+       url('../../fonts/Trebuchet-MS-Bold.ttf') format('truetype'),
+       url('../../fonts/Trebuchet-MS-Bold.svg') format('svg');
   font-weight: 700;
   font-style: normal;
 }
@@ -17,7 +25,12 @@
 @font-face {
   font-family: 'Trebuchet Regular';
   src: url('../../fonts/Trebuchet-MS-Regular.eot');
-  src: local('☺'), url('../../fonts/Trebuchet-MS-Regular.woff') format('woff'), url('../../fonts/Trebuchet-MS-Regular.ttf') format('truetype'), url('../../fonts/Trebuchet-MS-Regular.svg') format('svg');
+  src: local('Trebuchet-MS-Regular'),
+       local('Trebuchet Regular'),
+       local('Trebuchet MS Regular'),
+       url('../../fonts/Trebuchet-MS-Regular.woff') format('woff'),
+       url('../../fonts/Trebuchet-MS-Regular.ttf') format('truetype'),
+       url('../../fonts/Trebuchet-MS-Regular.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }

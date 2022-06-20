@@ -1,13 +1,13 @@
 @import '../../assets/styles/index.scss';
 
-.cards {
-  max-width: width(desktop);
+.main {
+  // max-width: width(desktop);
   display: flex;
+  flex: 0 1 width(desktop);
+  min-width: 0;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin: auto;
-  padding: 0 80px 36px;
+  padding: 0 36px 36px;
 
   &__title {
     @include font-title;
@@ -15,20 +15,41 @@
     color: $color-light;
     @extend %text-shadow;
   }
+
+  @include media-desktop {
+    padding: 0 20px 20px;
+  }
+
+  // @include media-laptop {
+  //   max-width: width(laptop);
+  // }
+
+  // @include media-tablet {
+  //   max-width: width(tablet);
+  // }
+
+  // @include media-mobile {
+  //   max-width: width(mobile);
+  // }
 }
 
 .list {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 50px;
   flex-wrap: wrap;
+  gap: 80px;
   list-style: none;
   margin: 0;
   padding: 0;
 
+  @include media-desktop {
+    gap: 20px;
+  }
+
   @include media-laptop {
     justify-content: center;
-    gap: 50px;
+    gap: 40px;
   }
 }

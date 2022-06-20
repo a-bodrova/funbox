@@ -18,9 +18,9 @@ const GoodsList = () => {
   }, [])
 
   return (
-    <main className='cards'>
-      <h1 className='cards__title'>{goodsList.title}</h1>
-      <ul className='cards__list list'>
+    <main className='main'>
+      <h1 className='main__title'>{goodsList.title}</h1>
+      <ul className='main__list list'>
         {
           goods.map(good => <Card info={good} key={good.id} />)
         }
