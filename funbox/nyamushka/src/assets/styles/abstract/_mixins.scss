@@ -1,0 +1,51 @@
+@mixin sizes($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+@mixin font-title {
+  font-family: 'Exo2.0';
+  font-size: 36px;
+  line-height: 44px;
+}
+
+@mixin font-card-title {
+  font-family: 'Trebuchet Bold';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+@mixin font-card-bold($size, $height) {
+  font-family: 'Trebuchet Bold';
+  font-weight: 700;
+  font-size: $size;
+  line-height: $height;
+}
+
+@mixin font-card-regular($size, $height) {
+  font-family: 'Trebuchet Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $size;
+  line-height: $height;
+}
+
+
+@mixin media-laptop {
+  @media (max-width: width(laptop)) {
+    @content;
+  }
+}
+
+@mixin media-tablet {
+  @media (max-width: width(tablet)) {
+    @content;
+  }
+}
+
+@mixin media-mobile {
+  @media (max-width: width(mobile)) {
+    @content;
+  }
+}

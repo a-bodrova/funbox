@@ -1,0 +1,6 @@
+@import '../../assets/styles/index.scss';
+
+.card__unavailable {
+  @include font-card-regular(13px, 15px);
+  color: $color-unavailable;
+}

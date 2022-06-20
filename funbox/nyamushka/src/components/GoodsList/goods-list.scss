@@ -1,0 +1,34 @@
+@import '../../assets/styles/index.scss';
+
+.cards {
+  max-width: width(desktop);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 0 80px 36px;
+
+  &__title {
+    @include font-title;
+    text-align: center;
+    color: $color-light;
+    @extend %text-shadow;
+  }
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @include media-laptop {
+    justify-content: center;
+    gap: 50px;
+  }
+}

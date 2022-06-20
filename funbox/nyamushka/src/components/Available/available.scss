@@ -1,0 +1,16 @@
+@import '../../assets/styles/index.scss';
+
+.card__available {
+  @include font-card-bold(13px, 15px);
+  color: $color-light;
+
+  &-link {
+    color: $color-primary;
+    text-decoration: underline dashed;
+
+    &__dot {
+      color: $color-primary;
+      text-decoration:none;
+    }
+  }
+}

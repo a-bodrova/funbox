@@ -1,0 +1,15 @@
+@import '../../assets/styles/index.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  background-image: url('../../assets/images/bg-rapport.png');
+  @extend %bg-gradient;
+}
