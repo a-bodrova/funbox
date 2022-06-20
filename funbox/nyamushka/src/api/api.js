@@ -1,9 +1,9 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/',
+  baseURL: 'https://raw.githubusercontent.com/a-bodrova/funbox/nyamushka',
 })
 
 export const getGoods = async () => {
-  return await (await api.get('/db.json')).data;
+  return await (await api.get('/funbox/nyamushka/public/db.json')).data;
 }

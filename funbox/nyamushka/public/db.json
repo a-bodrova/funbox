@@ -9,7 +9,7 @@
     "serving": "40 порций",
     "gift": "2 мыши в подарок",
     "xxl": "",
-    "available": false,
+    "available": true,
     "tagline": "Сказочное заморское яство"
   },
   { "id": 2,
@@ -34,7 +34,7 @@
     "serving": "100 порций",
     "gift": "5 мышей в подарок",
     "xxl": "заказчик доволен",
-    "available": true,
+    "available": false,
     "tagline": "Сказочное заморское яство"
   }
 ]
