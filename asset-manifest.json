@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/funbox/static/css/main.68face50.css",
+    "main.css": "/funbox/static/css/main.3cff6e78.css",
     "main.js": "/funbox/static/js/main.ca3cc52d.js",
     "static/media/Trebuchet-MS-Regular.svg": "/funbox/static/media/Trebuchet-MS-Regular.9b49de8eea8279cc324c.svg",
     "static/media/Trebuchet-MS-Bold.svg": "/funbox/static/media/Trebuchet-MS-Bold.c2eb13054abc8a25aeba.svg",
@@ -17,11 +17,11 @@
     "static/media/Exo2.0-Thin.woff": "/funbox/static/media/Exo2.0-Thin.182c97217cd986a2e12a.woff",
     "static/media/bg-rapport.png": "/funbox/static/media/bg-rapport.d6f07f8ed5f5049a96ce.png",
     "index.html": "/funbox/index.html",
-    "main.68face50.css.map": "/funbox/static/css/main.68face50.css.map",
+    "main.3cff6e78.css.map": "/funbox/static/css/main.3cff6e78.css.map",
     "main.ca3cc52d.js.map": "/funbox/static/js/main.ca3cc52d.js.map"
   },
   "entrypoints": [
-    "static/css/main.68face50.css",
+    "static/css/main.3cff6e78.css",
     "static/js/main.ca3cc52d.js"
   ]
 }
